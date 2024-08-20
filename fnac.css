@@ -1,0 +1,147 @@
+html{
+  background-image: url("img/fnac.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 19px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: black;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+      opacity: 0.5;
+}
+
+.right {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1920px) {
+  /* For mobile phones: */
+
+  nav {
+    margin: 0;
+    padding: 0;
+    background: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: 0px 0px 7px red;
+    display: block;
+}
+
+li {
+display: inline;
+text-decoration: none; float: right;
+}
+      
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+      
+h1{
+text-shadow: 0px 0px 7px red;
+text-align:center;
+}
+      
+h2 {
+box-shadow: 0px 0px 12px red;
+background: white;
+opacity: 0.5;
+}
+      
+p{
+box-shadow: 0px 0px 12px red;
+background: white;
+opacity: 0.5;
+}
+      
+.imagem {
+margin-top: 42px;
+height: 200px;
+width: 100%;
+text-align: center;
+}
+}
+
+footer{
+text-align: center;
+background-color: white;
+margin-top: 55.4px;
+color: black;
+}
+
+hr{
+  box-shadow: 7px 7px 22px red;
+}
+
+.lado{
+  box-shadow: 0px 0px 12px red;
+  background: white;
+  opacity: 0.5;
+  text-align: left;
+}
+
+.foda td{
+  color: white;
+  text-shadow: 17px 17px 17px red;
+  font-size: 30px;
+}
+
+.foda img{
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 12px red;
+}
+
+.active{
+  background-image: linear-gradient(red, black);
+  opacity: 0.7;
+  text-shadow: 4px 7px 12px red;
+}
+a:hover {
+  opacity: 0.7;
+  background-image: radial-gradient(red, black);
+}
+
+li {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
